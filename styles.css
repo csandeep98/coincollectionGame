@@ -1,0 +1,45 @@
+#gameArea {
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-image: url('back.jpg');
+    background-size: cover;
+    border: 1px solid black;
+}
+
+#basket {
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    height: 70px;
+    background-image: url('basket.jpg');
+    background-size: cover;
+}
+
+.gold {
+    position: absolute;
+    background-image: url('gold.webp');
+    background-size: cover;
+    animation: fall 2s linear infinite;
+}
+
+#scoreboard, #timer {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-radius: 5px;
+}
+
+#scoreboard {
+    left: 10px;
+}
+
+#timer {
+    left: 100px; /* Adjust this value as needed */
+}
+
+@keyframes fall {
+    0% { top: 0; }
+    100% { top: 100%; }
+}
