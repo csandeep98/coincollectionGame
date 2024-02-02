@@ -10,8 +10,8 @@
 #basket {
     position: absolute;
     bottom: 0;
-    width: 70px;
-    height: 70px;
+    width: 190px;
+    height: 100px;
     background-image: url('basketNew.png');
     background-size: cover;
 }
