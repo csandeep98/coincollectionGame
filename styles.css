@@ -12,13 +12,13 @@
     bottom: 0;
     width: 70px;
     height: 70px;
-    background-image: url('basket.jpg');
+    background-image: url('basketNew.png');
     background-size: cover;
 }
 
 .gold {
     position: absolute;
-    background-image: url('gold.webp');
+    background-image: url('rock.png');
     background-size: cover;
     animation: fall 2s linear infinite;
 }
